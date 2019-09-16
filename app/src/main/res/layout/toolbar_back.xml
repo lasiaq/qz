@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hjq.bar.TitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_45"
+    android:background="@color/colorPrimary"
+    app:backButton="true"
+    app:rightColor="@color/colorWhite"
+    app:leftColor="@color/colorWhite"
+    app:titleColor="@color/colorWhite"
+    app:leftSize="@dimen/text_16"
+    app:rightSize="@dimen/text_16"
+    app:leftIcon="@drawable/ic_toolbar_back"/>
